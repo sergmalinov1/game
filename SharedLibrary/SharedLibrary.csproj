@@ -4,6 +4,9 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+
+	  <PostBuildEvent>copy SharedLibrary.dll $(OutDir)..\..\..\..\..\GameClient\Assets\DLLs\SharedLibrary.dll</PostBuildEvent>
   </PropertyGroup>
 
 </Project>
