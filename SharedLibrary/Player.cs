@@ -1,4 +1,6 @@
-﻿namespace SharedLibrary
+﻿//<PostBuildEvent>copy SharedLibrary.dll $(OutDir)..\..\..\..\..\GameClient\Assets\DLLs\SharedLibrary.dll</PostBuildEvent>
+
+namespace SharedLibrary
 {
     public class Player
     {
