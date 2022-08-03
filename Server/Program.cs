@@ -20,6 +20,7 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 
 app.MapControllers();
-app.MapHub<NotificationHub>("/notification");
+//app.MapHub<NotificationHub>("/notification");
+app.MapHub<GameHub>("/game");
 
 app.Run();
